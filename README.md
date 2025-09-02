@@ -84,9 +84,7 @@ python predictiion.py
 The system can effectively:
 
 1. Recognize Urdu alphabet characters from spoken audio
-
 2. Handle pronunciation & recording quality variations
-
 3. Provide similarity scores for confidence in matches
 
 ## Example output:
@@ -95,19 +93,17 @@ The system can effectively:
 
 ---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 1. Expand dataset with more speakers and variations
-
 2. Implement real-time continuous speech recognition
-
 3. Add support for Urdu word and phrase recognition
-
 4. Develop a user-friendly GUI interface
 
 ---
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 This project was developed as part of audio recognition research, specifically focused on Urdu language processing using deep learning techniques.
+
 
