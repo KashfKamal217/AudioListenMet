@@ -60,15 +60,6 @@ Training Process
 
 The training achieved over 96% accuracy on the validation set after 15 epochs.
 
-File Structure
-AudioListenMet/
-├── siamese_model_optimized1.keras    # trained model
-├── prediction.py                     # Main application script
-├── training.ipynb                    # Jupyter notebook with training code
-├── recordings/                       # Directory for new recordings
-└── dataurdu/                         # Dataset directory
-    └── urdualphabets11/              # Urdu alphabet recordings
-
 Results
 The system can effectively:
 
@@ -88,3 +79,4 @@ Future Improvements
 Acknowledgments
 
 This project was developed as part of audio recognition research, specifically focused on Urdu language processing using deep learning techniques.
+
