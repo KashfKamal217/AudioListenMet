@@ -18,7 +18,12 @@ Encoder Details:
 4. Global Average Pooling
 5. Dense Layer (128 units, ReLU activation)
 
-The model calculates the absolute difference between encoded features and passes them through a sigmoid function to produce a similarity score between 0 and 1.
+2. Similarity Calculation
+•	Compute absolute difference (L1 distance) between the two audio embeddings using a custom AbsDif
+•	Pass the difference through a Dense layer with sigmoid activation to output a similarity score:
+o	0 → Different audio
+o	1 → Same audio
+
 
 Dataset
 The model was trained on a custom dataset of Urdu alphabet pronunciations (urdualphabets11). The dataset contains multiple audio recordings for each Urdu alphabet character, with each recording featuring different speakers and variations in pronunciation.
@@ -79,4 +84,5 @@ Future Improvements
 Acknowledgments
 
 This project was developed as part of audio recognition research, specifically focused on Urdu language processing using deep learning techniques.
+
 
