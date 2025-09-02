@@ -77,7 +77,7 @@ python predictiion.py
 5. Optimizer: Adam (lr = 1e-4)
 6. Loss function: Binary cross-entropy
 
-## 📈 Achieved 96% validation accuracy after 15 epochs.
+## 📈 Achieved 97% validation accuracy after 20 epochs.
 
 ## ✅ Results
 
@@ -105,5 +105,6 @@ The system can effectively:
 ## 🙏 Acknowledgments
 
 This project was developed as part of audio recognition research, specifically focused on Urdu language processing using deep learning techniques.
+
 
 
