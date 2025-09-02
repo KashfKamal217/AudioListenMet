@@ -1,4 +1,4 @@
-# AudioListenMet - Urdu Alphabet Recognition
+# AudioListenMet - Urdu Alphabet Matching
 
 A deep learning-based audio recognition system that identifies Urdu alphabet characters from spoken audio using a **Siamese neural network architecture**.
 
@@ -110,3 +110,4 @@ The system can effectively:
 🙏 Acknowledgments
 
 This project was developed as part of audio recognition research, specifically focused on Urdu language processing using deep learning techniques.
+
