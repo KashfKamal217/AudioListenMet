@@ -42,6 +42,8 @@ git clone https://github.com/username/AudioListenMet.git
 cd AudioListenMet
 pip install -r requirements.txt
 
+---
+## ⚙️ Installation
 ## 🚀 Usage
 Run the main script:
 
@@ -104,5 +106,6 @@ Develop a user-friendly GUI interface
 
 ## ⚙🙏 Acknowledgments
 This project was developed as part of audio recognition research, specifically focused on Urdu language processing using deep learning techniques.
+
 
 
