@@ -42,11 +42,13 @@ git clone https://github.com/username/AudioListenMet.git
 cd AudioListenMet
 pip install -r requirements.txt
 
-🚀 Usage
+## 🚀 Usage
 Run the main script:
 
+```bash
 python predictiion.py
-Choose an option:
+
+## ⚙️Choose an option:
 
 Record new audio (2-second recording)
 
@@ -64,7 +66,7 @@ Compare with stored Urdu alphabet recordings
 
 Return the best match with similarity score
 
-🎯 Training Process
+## ⚙🎯 Training Process
 The model was trained using a Siamese network approach with:
 
 Positive pairs: Different recordings of the same Urdu character
@@ -77,9 +79,9 @@ Optimizer: Adam (lr = 1e-4)
 
 Loss function: Binary cross-entropy
 
-📈 Achieved 96% validation accuracy after 15 epochs.
+## ⚙📈 Achieved 96% validation accuracy after 15 epochs.
 
-✅ Results
+## ⚙✅ Results
 The system can effectively:
 
 Recognize Urdu alphabet characters from spoken audio
@@ -88,10 +90,10 @@ Handle pronunciation & recording quality variations
 
 Provide similarity scores for confidence in matches
 
-Example output:
+## ⚙Example output:
 🔍 Best Match: bay (Score: 0.9132)
 
-🔮 Future Improvements
+## ⚙🔮 Future Improvements
 Expand dataset with more speakers and variations
 
 Implement real-time continuous speech recognition
@@ -100,6 +102,7 @@ Add support for Urdu word and phrase recognition
 
 Develop a user-friendly GUI interface
 
-🙏 Acknowledgments
+## ⚙🙏 Acknowledgments
 This project was developed as part of audio recognition research, specifically focused on Urdu language processing using deep learning techniques.
+
 
