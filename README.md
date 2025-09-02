@@ -7,8 +7,8 @@ This project implements a Siamese neural network to recognize and match Urdu alp
 Model Architecture
 The system uses a Siamese neural network with the following architecture:
 
-![Demo Screenshot](images\siamesearchitecture.jpg)
-
+![Demo Screenshot](siamesearchitecture.jpg)
+![Demo Screenshot](mfcc.png)
  
 Encoder Details:
 
@@ -23,24 +23,10 @@ The model calculates the absolute difference between encoded features and passes
 Dataset
 The model was trained on a custom dataset of Urdu alphabet pronunciations (urdualphabets11). The dataset contains multiple audio recordings for each Urdu alphabet character, with each recording featuring different speakers and variations in pronunciation.
 
-Dataset Structure:
-
-urdualphabets11/
-├── alif/
-│   ├── alif_1.m4a
-│   ├── alif_2.m4a
-│   └── ...
-├── bay/
-│   ├── bay_1.m4a
-│   ├── bay_2.m4a
-│   └── ...
-└── ... (other Urdu characters)
-
 Installation
 
 Install required dependencies:
 pip install -r requirements.txt
-
 
 Usage
 Run the main script:
@@ -100,4 +86,5 @@ Future Improvements
 4. Develop a user-friendly GUI interface
 
 Acknowledgments
+
 This project was developed as part of audio recognition research, specifically focused on Urdu language processing using deep learning techniques.
